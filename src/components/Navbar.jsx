@@ -10,13 +10,12 @@ import { ButtonType1, ButtonType2 } from "./Button";
 export default function Navbar() {
     const [navbarOpen, setNavbarOpen] = useState(false);
     return (
-        <>
-            <nav className="relative flex flex-wrap items-center justify-between px-5 py-3 bg-white shadow-md mb-3">
-                <div className="container mx-auto flex flex-wrap items-center justify-between lg:space-x-20">
+            <nav className="w-full z-10 top-0 fixed bg-white shadow-md">
+                <div className="container mx-auto px-5 py-3 flex flex-wrap items-center justify-between lg:space-x-20">
                     <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
                         <img src={Logo} alt="logo" width={150} />
                         <button
-                            className="text-black cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+                            className="text-black cursor-pointer text-xl leading-none px-1 py-1 border border-solid border-black border-transparent rounded block lg:hidden outline-none focus:outline-none"
                             type="button"
                             onClick={() => setNavbarOpen(!navbarOpen)}
                         >
@@ -44,13 +43,13 @@ export default function Navbar() {
                         </ul>
                         <ul className="flex flex-col lg:flex-row list-none lg:ml-auto lg:mt-0 mt-5">
                             <li className="space-x-6">
-                                <ButtonType1 name="Get Started" width={120}/>
-                                <ButtonType2 name="Login" width={80} />
+                                <ButtonType1>Get Started</ButtonType1>
+                                <ButtonType2>Login</ButtonType2>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
-        </>
+
     );
 }
