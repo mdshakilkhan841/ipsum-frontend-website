@@ -5,15 +5,15 @@ import { FaPlayCircle } from "react-icons/fa";
 
 const Hero = () => {
     return (
-        <section className="text-gray-600 body-font mt-[62px]">
-            <div className="container mx-auto mr-0 flex md:px-0 px-5 md:flex-row flex-col items-center">
-                <div className="lg:flex-grow md:w-1/2 xl:pr-28 lg:pr-12 sm:px- flex flex-col md:items-start md:text-left mb-10 md:mb-0 items-center text-center">
+        <section className="text-gray-600 body-font lg:mt-[62px] mt-[54px]">
+            <div className="flex justify-end md:px-0 px-5 md:flex-row flex-col items-center">
+                <div className="lg:flex-grow md:w-1/2 max-w-3xl md:pl-5 lg:pr-50 md:pr-16 flex justify-end flex-col md:items-start md:text-left mb-10 md:mb-0 items-center text-center">
                     <h1 className="title-font lg:text-7xl text-5xl mt-4 mb-4 font-normal text-gray-900">
                         Lore <span className="font-bold">ipsum.</span>
                         <br className="inline-block" />
                         Dolor <span className="font-bold">sit.</span>
                     </h1>
-                    <p className="mb-8 leading-relaxed">
+                    <p className="mb-8 leading-relaxed lg:text-lg text-justify">
                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu. Sed ut perspiciatis unde omnis iste natus error.
                     </p>
                     <div className="flex justify-center space-x-6">
@@ -28,9 +28,9 @@ const Hero = () => {
                         </ButtonType1>
                     </div>
                 </div>
-                <div className="md:w-1/2 ">
+                <div className="md:w-1/2 flex justify-end">
                     <img
-                        className="object-cover object-center h-full w-full lg:h-auto lg:w-full"
+                        className="object-cover object-center "
                         alt="hero"
                         src={HeroPicture}
                     />
