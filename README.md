@@ -1,13 +1,14 @@
 ﻿# ipsum-frontend-website
  
 ## Description
-This is a responsive Frontend website design
+This is a responsive Frontend website design using ReactJs
 
-## Help
+## Installation
 
-$ npm install
 ```
-command to - run npm run dev
+npm install
+```
+run npm run dev
 ```
 
 ## Application UI
