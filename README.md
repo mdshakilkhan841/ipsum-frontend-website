@@ -13,6 +13,6 @@ npm run dev
 ```
 
 ## Application UI
-![Uploading screencapture-ipsum-frontend-website-netlify-app-2023-06-07-09_30_19.png…]()
+![image](https://github.com/mdshakilkhan841/ipsum-frontend-website/assets/77512256/41aef671-3492-4055-9207-972ff4c12db1)
 
 
